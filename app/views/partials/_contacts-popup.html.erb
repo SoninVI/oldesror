@@ -1,0 +1,36 @@
+<div id="contacts-popup" class="popup popup--contacts">
+  <h3 class="popup__title section-title">З'явились питання? </h3>
+  <p class="popup__desc">Залиште свої контакти і ми зв'яжемось з Вами!</p>
+  <form class="form" data-type="1">
+    <div class="form__row">
+      <label>
+        <input type="text" class="form__input" name="name">
+        <span class="form__placeholder">Ваше ім’я *</span>
+      </label>
+      <span class="form__error"></span>
+    </div>
+    <div class="form__row">
+      <label>
+        <input type="tel" class="form__input form__input--tel" name="phone">
+        <span class="form__placeholder">Ваш телефон *</span>
+      </label>
+      <span class="form__error"></span>
+    </div>
+    <div class="form__row">
+      <label>
+        <input type="text" class="form__input" name="email">
+        <span class="form__placeholder">Ваш email *</span>
+      </label>
+      <span class="form__error"></span>
+    </div>
+    <input type="hidden" name="recaptcha_response" class="recaptchaResponse">
+    <div class="form__row">
+      <button type="submit" class="form__submit submit form-submit">Відправити</button>
+    </div>
+  </form>
+
+  <div class="thanks">
+    <p>Повідомлення відправлено! <br>
+      Ми зв'яжемося з Вами найближчим часом!</p>
+  </div>
+</div>

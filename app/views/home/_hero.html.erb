@@ -1,0 +1,85 @@
+<section class="hero">
+  <div class="hero-slider">
+    <% @slider.each do |slider| %>
+    <div class="hero-slider__item center-img">
+      <%= image_tag slider.img.url, class: "lazy", alt: "eridon"%>
+    </div>
+    <% end %>
+  </div>
+
+
+
+
+  <div class="hero__grid">
+    <svg class="hero__grid-img" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0)"><rect width="2240" height="1060" fill="transparent"/>
+        <rect x="2239" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="2132" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="2026" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1919" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1813" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1706" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1599" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1493" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1386" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1279" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1173" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="1066" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="960" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="853" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="746" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="640" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="533" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="426" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="320" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="213" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect x="107" width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.996441" height="1060" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000359292 -1 1 0.000342691 1 1060)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 952)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000374261 -1 1 0.000328984 1 846)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000374261 -1 1 0.000328984 1 740)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000374261 -1 1 0.000328984 1 635)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 529)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 423)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 317)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 212)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000372391 -1 1 0.000330636 1 106)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect width="0.998438" height="2240" transform="matrix(0.000330716 -1 1 0.000372302 1 0.0858459)" fill="#C4C4C4" fill-opacity="0.2"/>
+        <rect class="grid-item grid-item-1" x="427.307" y="741" width="106" height="106" fill-opacity="0.1"/>
+        <rect class="grid-item grid-item-2" x="1813" y="635" width="106" height="106" fill-opacity="0.1"/>
+        <rect class="grid-item grid-item-3" x="427" y="424" width="106" height="106" fill-opacity="0.1"/>
+        <rect class="grid-item grid-item-4" x="960" y="212" width="106" height="106" fill-opacity="0.1"/>
+        <rect class="grid-item grid-item-5" x="1707" y="212" width="106" height="106" fill-opacity="0.1"/>
+      </g>
+      <defs>
+        <clipPath id="clip0"><rect width="2240" height="1060" fill="transparent"/></clipPath>
+      </defs>
+    </svg>
+  </div>
+
+  <div class="hero-menu-btn">
+    <div class="hero-menu-btn__title">меню</div>
+    <div class="hero-menu-btn__hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero__title-wrap">
+    <h1 class="hero__title-main">
+      <span>
+        <b>Інжиніринг</b> та <b>будівництво</b>
+      </span>
+      комерційних та промислових об'єктів
+      <b>«під ключ»</b>
+    </h1>
+  </div>
+
+
+  <div class="hero__iso">
+    <%= image_tag "pixel.png", data: {src: "/img/iso-logo.png", class: "lazy", alt: "ISO"} %>
+  </div>
+
+</section>

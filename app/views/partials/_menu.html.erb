@@ -1,0 +1,103 @@
+<div class="menu-btn">
+  <div class="menu-btn__title">меню</div>
+  <div class="menu-btn__hamburger"><span></span><span></span><span></span></div>
+</div>
+
+<nav class="menu ">
+  <div class="menu__top">
+    <%= link_to root_path, style: "pointer-events: none", class: "header__logo" do %>
+      <%= image_tag "log.png", class: "lazy" , alt: "eridon" %>
+    <% end %>
+    <div class="menu__lang lang">
+      <div class="lang__current">ua</div>
+<!--      <ul class="lang__list">-->
+<!--        <li class="lang__item">-->
+<!--          <a href="ru.html"-->
+<!--             class="lang__link">-->
+<!--            RU-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        <li class="lang__item">-->
+<!--          <a href="en.html"-->
+<!--             class="lang__link">-->
+<!--            EN-->
+<!--          </a>-->
+<!--        </li>-->
+<!--      </ul>-->
+    </div>
+  </div>
+
+  <div class="menu__left">
+    <ul class="main-menu">
+      <li class="main-menu__item"><a href="ua/about.html" class="main-menu__link ">Про нас</a></li>
+      <li class="main-menu__item"><a href="ua/projects.html" class="main-menu__link ">Проекти</a></li>
+      <li class="main-menu__item"><a href="ua/provider.html" class="main-menu__link ">Постачальникам</a></li>
+      <li class="main-menu__item"><a href="ua/career.html" class="main-menu__link ">Кар'єра</a></li>
+      <li class="main-menu__item"><a href="ua/news.html" class="main-menu__link ">Новини</a></li>
+      <li class="main-menu__item"><a href="ua/articles.html" class="main-menu__link ">Статті</a></li>
+      <li class="main-menu__item"><a href="ua/contacts.html" class="main-menu__link ">Контакти</a></li>
+    </ul>
+  </div>
+
+  <div class="menu__right">
+    <div class="sub-menu-bg">
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "general-order" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "comprehensive-engineering" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "construction-elevators" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "irrigation-systems" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "farms-equipment" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "hangar-granaries" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "installation-and-service" %>
+      <%= image_tag "pixel.png", loading: "lazy", class: "lazy", alt: "transportation-equipment" %>
+
+    </div>
+    <div class="sub-menu">
+      <div class="sub-menu__left">
+        <div class="sub-menu__title">Діяльність компанії</div>
+        <ul class="sub-menu__list">
+          <li class="sub-menu__item"><a href="ua/general-order.html" class="sub-menu__link"> Генеральний підряд</a></li>
+          <li class="sub-menu__item"><a href="ua/comprehensive-engineering.html" class="sub-menu__link"> Комплексний інжиніринг</a></li>
+          <li class="sub-menu__item"><a href="ua/construction-elevators.html" class="sub-menu__link"> Будівництво елеваторів, насіннєвих та комбікормових заводів «під ключ»</a></li>
+          <li class="sub-menu__item"><a href="ua/irrigation-systems.html" class="sub-menu__link"> Дощувальні машини та зрошувальні системи</a></li>
+          <li class="sub-menu__item"><a href="ua/farms-equipment.html" class="sub-menu__link"> Будівництво тваринницьких ферм і обладнання для ферм ВРХ</a></li>
+          <li class="sub-menu__item"><a href="ua/hangar-granaries.html" class="sub-menu__link"> Будівництво ангарних зерносховищ «під ключ»</a></li>
+          <li class="sub-menu__item"><a href="ua/installation-and-service.html" class="sub-menu__link"> Монтаж та сервісне обслуговування</a></li>
+          <li class="sub-menu__item"><a href="ua/transportation-equipment.html" class="sub-menu__link"> Обладнання для транспортування зерна</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu begin-->
+  <ul class="main-menu modile-menu">
+    <li class="main-menu__item main-menu__item--sub">
+      <span class="main-menu__link main-menu__link--sub">Діяльність компанії</span>
+      <ul class="sub-menu">
+        <li class="sub-menu__item"><a href="ua/general-order.html" class="sub-menu__link">
+          Генеральний підряд</a></li>
+        <li class="sub-menu__item"><a href="ua/comprehensive-engineering.html" class="sub-menu__link">
+          Комплексний інжиніринг</a></li>
+        <li class="sub-menu__item"><a href="ua/construction-elevators.html" class="sub-menu__link">
+          Будівництво елеваторів, насіннєвих та комбікормових заводів «під ключ»</a></li>
+        <li class="sub-menu__item"><a href="ua/irrigation-systems.html" class="sub-menu__link">
+          Дощувальні машини та зрошувальні системи</a></li>
+        <li class="sub-menu__item"><a href="ua/farms-equipment.html" class="sub-menu__link">
+          Будівництво тваринницьких ферм і обладнання для ферм ВРХ</a></li>
+        <li class="sub-menu__item"><a href="ua/hangar-granaries.html" class="sub-menu__link">
+          Будівництво ангарних зерносховищ «під ключ»</a></li>
+        <li class="sub-menu__item"><a href="ua/installation-and-service.html" class="sub-menu__link">
+          Монтаж та сервісне обслуговування</a></li>
+        <li class="sub-menu__item"><a href="ua/transportation-equipment.html" class="sub-menu__link">
+          Обладнання для транспортування зерна</a></li>
+      </ul>
+    </li>
+    <li class="main-menu__item"><a href="ua/about.html" class="main-menu__link ">Про нас</a></li>
+    <li class="main-menu__item"><a href="ua/projects.html" class="main-menu__link ">Проекти</a></li>
+    <li class="main-menu__item"><a href="ua/provider.html" class="main-menu__link ">Постачальникам</a></li>
+    <li class="main-menu__item"><a href="ua/career.html" class="main-menu__link ">Кар'єра</a></li>
+    <li class="main-menu__item"><a href="ua/news.html" class="main-menu__link ">Новини</a></li>
+    <li class="main-menu__item"><a href="ua/articles.html" class="main-menu__link ">Статті</a></li>
+    <li class="main-menu__item"><a href="ua/contacts.html" class="main-menu__link ">Контакти</a></li>
+  </ul>
+  <!-- Mobile menu end-->
+</nav>

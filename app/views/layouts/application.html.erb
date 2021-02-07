@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>RubyUA</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
+  </head>
+
+  <body>
+   <div class="wrap">
+    <%= render partial: "partials/header" %>
+    <%= yield %>
+     <%= render "partials/footer" %>
+     <%= render "partials/contacts-popup" %>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<section class="services">
+  <h2 class="services__title section-title ">«OLDES» <span>надає такий спектр послуг:</span></h2>
+  <div class="services__inner">
+    <div class="services__bg">
+      <% @service.each do |services| %>
+      <%= image_tag services.img.url, class: "lazy active" , alt: "eridon" %>
+        <% end %>
+    </div>
+    <div class="services__list">
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Генеральний підряд</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Комплексний інжиніринг</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Будівництво елеваторів, насіннєвих та комбікормових заводів «під ключ»</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item services__item--lg" do %>
+        <h4 class="services__subtitle">Дощувальні машини та зрошувальні системи</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item services__item--lg" do %>
+        <h4 class="services__subtitle">Будівництво тваринницьких ферм і обладнання для ферм ВРХ</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Будівництво ангарних зерносховищ «під ключ»</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Монтаж та сервісне обслуговування</h4>
+      <%end %>
+      <%= link_to root_path, class: "services__item" do %>
+        <h4 class="services__subtitle">Обладнання для транспортування зерна</h4>
+      <%end %>
+    </div>
+  </div>
+</section>
