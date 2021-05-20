@@ -7,8 +7,8 @@ default: &default
 development:
   <<: *default
   database: RubyUA
-  login: sonin
-  password: 15081986
+  login: 
+  password: 
 
 #test:
 #  <<: *default
